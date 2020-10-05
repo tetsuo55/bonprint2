@@ -62,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_weight="1"
             android:text="Qty" />
 
         <TextView
@@ -69,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="1"
             android:text="Omschrijving" />
 
         <TextView
@@ -76,8 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
             android:text="E.P." />
 
         <TextView
@@ -106,6 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_weight="1"
             android:text="2" />
 
         <TextView
@@ -113,6 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="1"
             android:text="Kornuit 0,5" />
 
         <TextView
@@ -120,8 +123,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
             android:text="5,00" />
 
         <TextView
@@ -150,6 +152,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_weight="1"
             android:text="1" />
 
         <TextView
@@ -157,6 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="1"
             android:text="Patatje Met" />
 
         <TextView
@@ -164,8 +168,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
             android:text="3,50" />
 
         <TextView
@@ -201,6 +204,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="2"
             android:text="Totaal" />
 
         <TextView
@@ -208,9 +212,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
-            android:layout_weight="0"
+            android:layout_weight="1"
             android:text="13,50" />
     </LinearLayout>
 
@@ -224,14 +226,15 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="25dp"
-        android:paddingTop="5dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_weight="1"
             android:text="BTW %" />
 
         <TextView
@@ -239,6 +242,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="1"
             android:text="Inc." />
 
         <TextView
@@ -246,8 +250,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
             android:text="Excl." />
 
         <TextView
@@ -269,6 +272,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_weight="1"
             android:text="9%" />
 
         <TextView
@@ -276,6 +280,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="1"
             android:text="3,50" />
 
         <TextView
@@ -283,8 +288,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
             android:text="3,21" />
 
         <TextView
@@ -306,6 +310,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_weight="1"
             android:text="21%" />
 
         <TextView
@@ -313,6 +318,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="1"
             android:text="10,00" />
 
         <TextView
@@ -320,8 +326,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
             android:text="8,26" />
 
         <TextView
@@ -350,23 +355,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|top"
+            android:layout_weight="1"
             android:text="Totaal :" />
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:text="13,50" />
 
         <TextView
             android:id="@+id/textView32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|end"
-            android:layout_marginStart="200dp"
-            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
             android:text="11,47" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="13,50" />
 
         <TextView
             android:id="@+id/textView33"
